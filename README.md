@@ -47,7 +47,7 @@ https://blog.csdn.net/weixin_30699463/article/details/95709525
 ### this project showCase
 ![the indexPage](https://github.com/ljlhnick/vue-wangyiyun/blob/master/public/showCase/menuList.png)
 ![playList](https://github.com/ljlhnick/vue-wangyiyun/blob/master/public/showCase/playList.png)
-![station)(https://github.com/ljlhnick/vue-wangyiyun/blob/master/public/showCase/station.png)
+![station](https://github.com/ljlhnick/vue-wangyiyun/blob/master/public/showCase/station.png)
 ![page](https://github.com/ljlhnick/vue-wangyiyun/blob/master/public/showCase/page.png)
 ![playDetail](https://github.com/ljlhnick/vue-wangyiyun/blob/master/public/showCase/playDetail.png)
 ![mine](https://github.com/ljlhnick/vue-wangyiyun/blob/master/public/showCase/mine.png)
