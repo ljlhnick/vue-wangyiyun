@@ -8,7 +8,13 @@ npm install
 npm run build
 npm run test
 npm run lint
+npm run test:e2e
 npm run test:unit
+```
+
+### vue UI
+```
+vue ui
 ```
 
 ### use vue3.0 vue create XXX, here are some change
@@ -16,6 +22,7 @@ npm run test:unit
 1.data.json not need config 
 2.layout.vue mymusic.vue musicer.vue station.vue four components merge to one common copoment, according to the path, get different data but use one template, should watch the route change, once change, make a request.
 3.songFirst.vue myFirst.vue merge to songFirst.vue
+4.app.vue modal add form valid
 ```
 
 ### use ElementUI
@@ -47,10 +54,16 @@ https://blog.csdn.net/weixin_30699463/article/details/95709525
 ### this project showCase
 ![the indexPage](https://github.com/ljlhnick/vue-wangyiyun/blob/master/public/showCase/menuList.png)
 ![playList](https://github.com/ljlhnick/vue-wangyiyun/blob/master/public/showCase/playList.png)
-![station)(https://github.com/ljlhnick/vue-wangyiyun/blob/master/public/showCase/station.png)
+![station](https://github.com/ljlhnick/vue-wangyiyun/blob/master/public/showCase/station.png)
 ![page](https://github.com/ljlhnick/vue-wangyiyun/blob/master/public/showCase/page.png)
 ![playDetail](https://github.com/ljlhnick/vue-wangyiyun/blob/master/public/showCase/playDetail.png)
 ![mine](https://github.com/ljlhnick/vue-wangyiyun/blob/master/public/showCase/mine.png)
+![mine-form-valid](https://github.com/ljlhnick/vue-wangyiyun/blob/master/public/showCase/mine-form-valid)
+
+### API
+```
+the document is here:  https://api.imjad.cn/cloudmusic.md 
+```
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
