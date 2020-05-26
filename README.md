@@ -58,7 +58,7 @@ https://blog.csdn.net/weixin_30699463/article/details/95709525
 ![page](https://github.com/ljlhnick/vue-wangyiyun/blob/master/public/showCase/page.png)
 ![playDetail](https://github.com/ljlhnick/vue-wangyiyun/blob/master/public/showCase/playDetail.png)
 ![mine](https://github.com/ljlhnick/vue-wangyiyun/blob/master/public/showCase/mine.png)
-![mine-form-valid](https://github.com/ljlhnick/vue-wangyiyun/blob/master/public/showCase/mine-form-valid)
+![mine-form-valid](https://github.com/ljlhnick/vue-wangyiyun/blob/master/public/showCase/mine-form-valid.png)
 
 ### API
 ```
