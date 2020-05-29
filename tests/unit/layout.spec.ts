@@ -1,12 +1,11 @@
 import { shallowMount, mount } from "@vue/test-utils";
-// import Layout from "../../src/views/layout.vue";
-import App from "../../src/App.vue";
+import Layout from "../../src/views/layout.vue";
 
-describe("App.vue", () => {
+describe("Layout.vue", () => {
   it("has created hook", () => {
-    const wapper = shallowMount(App);
-    console.log("***", wapper);
-    expect(1+1).toEqual(2);
+    const wapper = shallowMount(Layout);
+    wapper.setData({title: 'test'});
+    expect(wapper.text()).toEqual("test");
   });
 
 });
