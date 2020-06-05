@@ -41,10 +41,29 @@ there are some useful doc  https://www.jianshu.com/p/d8ed3aa76e9b   https://www.
 3. components and filter inject @Component
 ```
 
-### jest not support es
+### from validate
+use the elememt form valid
 ```
-https://blog.csdn.net/weixin_30699463/article/details/95709525
+<el-form :model="dynamicValidateForm" ref="dynamicValidateForm">
+</<el-form>
+
+<el-button type="primary" @click="submitForm('dynamicValidateForm')">确 定</el-button>
+
+submitForm(formName) {
+    this.$refs[formName].validate(valid => {
+    if (valid) {
+        console.log("success submit", valid);
+    } else {
+        console.log("error");
+    }
+    });
+},
 ```
+ref给元素或子组件注册引用信息。若是DOM元素，引用指向是DOM元素。若是子组件，引用指向实例。此处引用为this.$refs.xxxx
+this.$refs[formName]获取的是form元素. $refs仅在组建渲染完后填充且是非响应式，用避免在模板或者计算属性中使用
+ref/this.$refs.xx  
+routes/this.$route   是跳转的路由对象，可以获取对应的name，path，params， query等
+router/this.$router   是Vuerouter的实例，这个实例对象包许多关键对象和属性，比如history对象以及push方法
 
 ### import tooltip from element-ui
 ```
